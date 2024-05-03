@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="display: flex; justify-content: center; align-items: center; height: 300px;">
 
 
 <?php
@@ -14,7 +14,7 @@ $a = $_GET['a'];
 
 echo "<table border = '1'>";
 
-echo "<tr><td colspan = '5'>Tabla de multiplicar de $a</td></tr>";
+echo "<tr><td colspan = '5' style='text-align: center;'>Tabla de multiplicar de $a</td></tr>";
 
 for($i=1;$i <= 25; $i++){
 
